@@ -1,0 +1,28 @@
+name: "Update Flake Inputs"
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: cachix/install-nix-action@v18
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # flakes don't work on shallow clones
+      - name: git-setup
+        run: |
+          git config --global user.name 'Github Automation'
+          git config --global user.email 'jesse@jessemoore.dev'
+      - name: update-flake-inputs
+        run: |
+          set -xeuo pipefail
+          nix flake update --commit-lock-file
+      - name: build-flake
+        run: |
+          set -xeuo pipefail
+          nix build
+      - name: push
+        run: |
+          git push origin HEAD
