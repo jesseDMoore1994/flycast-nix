@@ -19,6 +19,8 @@ jobs:
         run: |
           set -xeuo pipefail
           nix flake update --commit-lock-file
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: build-flake
         run: |
           set -xeuo pipefail
