@@ -23,6 +23,7 @@
               pkgs.cmake
               pkgs.SDL2.all
               pkgs.curl
+              pkgs.xorg.libXext
               pkgs.mesa
               pkgs.glfw
             ];
