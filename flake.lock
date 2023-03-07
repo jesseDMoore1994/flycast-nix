@@ -18,11 +18,11 @@
     "flycast-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1678116231,
-        "narHash": "sha256-4YaZIH2YdyOWcrYbdGO9H/4nS7QFdH9fnYxvvRglCoU=",
+        "lastModified": 1678195564,
+        "narHash": "sha256-6OW6nHVzgMMyny+pzlv/jvvTg5UdpqUpUS/b6c/273I=",
         "ref": "refs/heads/master",
-        "rev": "b4a67460e0b7c925568bec5782537e9d12f12b52",
-        "revCount": 5507,
+        "rev": "52754cbbbbe995cf7e0ee958298d205486530330",
+        "revCount": 5511,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/flyinghead/flycast.git"
@@ -35,11 +35,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1677932085,
-        "narHash": "sha256-+AB4dYllWig8iO6vAiGGYl0NEgmMgGHpy9gzWJ3322g=",
+        "lastModified": 1678111249,
+        "narHash": "sha256-ZTIbK7vthZwti5XeLZE+twkb4l44q01q2XoLMmmJe94=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "3c5319ad3aa51551182ac82ea17ab1c6b0f0df89",
+        "rev": "a028e2873d7fcf44e66b784b4ba061824315537f",
         "type": "github"
       },
       "original": {
