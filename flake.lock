@@ -22,7 +22,7 @@
       "flake": false,
       "locked": {
         "lastModified": 1706521908,
-        "narHash": "sha256-v2k7wm/gLyX7Qb8Ciq56f+nRP0vClv+lmvWLCH72Iik=",
+        "narHash": "sha256-IFocZHbZ8f0Lu/oYJGC0Ie6wjAo4ivfMJbaiix0/EOA=",
         "ref": "refs/heads/master",
         "rev": "57c88e07c41970975cb08425992abbeafe511ddd",
         "revCount": 5961,
