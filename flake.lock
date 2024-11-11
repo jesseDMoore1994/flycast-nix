@@ -21,11 +21,11 @@
     "flycast-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1731149098,
-        "narHash": "sha256-LmQ+kxcA+kgWh5tzC+9PG8BSbtP3d52UMamuuIkoClU=",
+        "lastModified": 1731359757,
+        "narHash": "sha256-UxpZF2JToYZijCVfVLpO/OjxiDhi8BaTpYP2hMllyjo=",
         "ref": "refs/heads/master",
-        "rev": "fc33002284d74d85f45ec6f7c5255474c70d6ad5",
-        "revCount": 6468,
+        "rev": "3efb87ba6ded05f816daba5a969b54d79c03e34d",
+        "revCount": 6470,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/flyinghead/flycast.git"
